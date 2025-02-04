@@ -1,0 +1,23 @@
+{
+  "name": "anthropic-mcp-code-analyzer",
+  "version": "1.0.0",
+  "description": "An MCP server for analyzing open source projects and assisting with codebase integration",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.12.0",
+    "express": "^4.18.2",
+    "simple-git": "^3.22.0",
+    "memfs": "^4.6.0",
+    "parse-git-diff": "^1.1.1",
+    "jscodeshift": "^0.15.1",
+    "ast-types": "^0.16.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
